@@ -16,10 +16,14 @@ Output: (1, 1, 192, 256) float32
 number:  285.41965
 ```
 
-input image and output result:
-
-![Alt text](https://github.com/linzhirui1992/Crowd-Counting/blob/master/IMG_191.jpg)
+input image:  
+![Alt text](https://github.com/linzhirui1992/Crowd-Counting/blob/master/IMG_191.jpg)  
+output result:  
 ![Alt text](https://github.com/linzhirui1992/Crowd-Counting/blob/master/result.png)
+
+# network structure
+visualize the network via valid Caffe's prototext  
+http://ethereon.github.io/netscope/#/editor
 
 # reference
 [A Deeply-Recursive Convolutional Network For Crowd Counting](https://arxiv.org/pdf/1805.05633.pdf)
