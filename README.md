@@ -1,8 +1,12 @@
 # Crowd-Counting
 Convolutional Network Demo For Crowd Counting
 
-python 3.6.2 + opencv 3.4.5
 
+# Dependencies
+python 3.6.2
+opencv 3.4.5
+
+# Run the demo
 Example:
 ```
 C:\Users\admin\Desktop\Crowd-Counting-master>python opencv_caffe_crowd_density_map.py
@@ -17,3 +21,5 @@ input image and output result:
 ![Alt text](https://github.com/linzhirui1992/Crowd-Counting/blob/master/IMG_191.jpg)
 ![Alt text](https://github.com/linzhirui1992/Crowd-Counting/blob/master/result.png)
 
+# reference
+[A Deeply-Recursive Convolutional Network For Crowd Counting](https://arxiv.org/pdf/1805.05633.pdf)
