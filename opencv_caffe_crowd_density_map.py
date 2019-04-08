@@ -10,13 +10,13 @@ from cv2 import dnn
 import time
 
 
-cm_path = 'C:\\Users\\admin\\Desktop\\'
+cm_path = 'C:\\Users\\admin\\Desktop\\Crowd-Counting-master\\model\\'
 
 
 
 if __name__ == "__main__":
 
-    fn = r'C:\Users\admin\Desktop\ShanghaiTech_Crowd_Counting_Dataset\part_B_final\test_data\images\IMG_191.jpg'
+    fn = r'C:\Users\admin\Desktop\Crowd-Counting-master\IMG_191.jpg'
 
     im_ori = cv2.imread(fn)
     plt.figure(1)
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     pylab.show()
 
 
-    blob = dnn.blobFromImage(im_ori, 1, (1280, 720), (0, 0, 0), True)
+    blob = dnn.blobFromImage(im_ori, 1, (1024, 768), (0, 0, 0), True)
 
     print("Input:", blob.shape, blob.dtype)
 
