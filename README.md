@@ -16,9 +16,9 @@ Output: (1, 1, 192, 256) float32
 number:  285.41965
 ```
 
-input image:  
+**input image:**  
 ![Alt text](https://github.com/linzhirui1992/Crowd-Counting/blob/master/IMG_191.jpg)  
-output result:  
+**output result:**  
 ![Alt text](https://github.com/linzhirui1992/Crowd-Counting/blob/master/result.png)
 
 # network structure
