@@ -26,5 +26,5 @@ visualize the network via valid Caffe's prototext
 http://ethereon.github.io/netscope/#/editor
 
 # reference
-[A Deeply-Recursive Convolutional Network For Crowd Counting](https://arxiv.org/pdf/1805.05633.pdf)
+[A Deeply-Recursive Convolutional Network For Crowd Counting](https://arxiv.org/pdf/1805.05633.pdf)  
 [Beijing-BRT-dataset](https://github.com/XMU-smartdsp/Beijing-BRT-dataset)
